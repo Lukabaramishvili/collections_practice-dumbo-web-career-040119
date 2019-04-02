@@ -42,7 +42,7 @@ def sum_array(array)
 end 
 
 def add_s(array)
-  array.map do |word|
+  array.collect do |word|
     if array[1] == word
       return word
     else
