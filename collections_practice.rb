@@ -52,7 +52,7 @@ end
 # end 
 
 def add_s(array)
-  array.each_with_index.collect { |ele, idx| 
+  array.each_with_index.collect do |ele, idx| 
 end 
 
 
