@@ -53,7 +53,7 @@ end
 
 def add_s(array)
   array.each_with_index.collect do |ele, idx| 
-    if idx != 1 
+    if idx
       return ele + "s"
     else
       return ele 
