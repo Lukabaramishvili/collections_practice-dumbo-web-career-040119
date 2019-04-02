@@ -52,5 +52,5 @@ end
 # end 
 
 def add_s(array)
-  array.each_with_index.collect { |ele, idx| idx != 1 ? ele << "s"
+  array.each_with_index.collect { |ele, idx| idx != 1 ? ele << "s" : ele }
 end 
