@@ -37,6 +37,7 @@ def sum_array(array)
   #   sum += num 
   # end
   # return sum 
+  [array[0]..array[-1]].inject
 end 
 
 
