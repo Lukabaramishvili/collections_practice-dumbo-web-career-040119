@@ -58,10 +58,5 @@ def add_s(array)
     else
       return ele 
     end
+  end
 end 
-
-
-
-
-
-
