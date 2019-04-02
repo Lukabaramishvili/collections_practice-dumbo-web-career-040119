@@ -37,6 +37,7 @@ def sum_array(array)
   #   sum += num 
   # end
   # return sum 
+# end
   array.inject {|sum,n| sum + n }
 end 
 
