@@ -20,9 +20,8 @@ def reverse_array(num)
 end 
 
 def kesha_maker(array)
-  words = array.split(" ")
-  words.each do |word|
-    
+  array.each do |word|
+    word[2] ==
 end 
 
 
